@@ -644,9 +644,11 @@ margin: 24px 100px;
    color: #404bbf;
    border: 1px solid #404bbf;
  }
-.footer-container {                             	
+
+ .form-unique {
   display: flex;
-  align-items: baseline;}
+  align-items: baseline
+ }
                 
   .footer-sm {
     font-weight: 500;
@@ -884,6 +886,10 @@ margin: 24px 100px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+
+.footer-box-p {
+  margin-right: 120px;
 }
 
 .footer-box {
