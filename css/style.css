@@ -965,7 +965,7 @@ margin: 24px 100px;
   overflow: auto;
 }
 
-.is-hidden {
+.ishidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
