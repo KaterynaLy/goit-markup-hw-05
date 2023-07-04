@@ -960,12 +960,6 @@ margin: 24px 100px;
   overflow: auto;
 }
 
-.ishidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
 .modal {
   position: absolute;
   top: 50%;
