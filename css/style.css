@@ -921,9 +921,10 @@ margin: 24px 100px;
 }
 
 .footer-btn {
+  justify-content: center;
   margin: 0;
   margin-left: auto;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   display: flex;
   align-items: center;
@@ -944,15 +945,9 @@ margin: 24px 100px;
   margin-left: 16px;
 }
 
-
-  
 .footer-form {
   flex-direction: row;
   gap: 24px;}
-
-.footer-input {
-  width: 264px;
-}
 
 .backdrop {
   position: fixed;
@@ -1061,10 +1056,12 @@ margin: 24px 100px;
 }
 
 .modal-input:focus-within+.username-icon {
-  fill: #4d5ae5;
+  fill: #4d5ae5; 
+  border-color: #4D5AE5;
 }
 
 .modal-input {
+  width: 264px;
   width: 100%;
   height: 40px;
   display: block;
@@ -1105,7 +1102,7 @@ margin: 24px 100px;
 }
 
 .modal-textarea:focus-within {
-  border-color: #4d5ae5;
+  border-color: #4D5AE5;
 }
 
 .modal-textarea::placeholder {
@@ -1120,10 +1117,10 @@ margin: 24px 100px;
 }
 
 .privacy-checkbox:checked+.privacy-label>.checkbox-box-svg {
-  background-color: #404bbf;
+  background-color: var(--active-accent-background-color);
   border: none;
-  fill: #ffffff;
   fill: var(--accent-background-color);
+  fill: var(--second-footer-logo-color);
 }
 
 .privacy-link {
