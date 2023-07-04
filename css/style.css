@@ -918,6 +918,7 @@ margin: 24px 100px;
 
 .footer-input::placeholder {
   color: #ffffff;
+  width: 264px;
 }
 
 .footer-btn {
